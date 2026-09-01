@@ -9,9 +9,10 @@
 }
 
 .contenedor-video video {
-  overflow: hidden;
+  position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   width: 100vw;
   height: 56.25vw;
   min-width: 177.78vh;
