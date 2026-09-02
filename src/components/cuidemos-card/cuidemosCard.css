@@ -1,0 +1,24 @@
+.cuidemos-card {
+  background-color: var(--primary-light);
+  max-width: 240px;
+  width: 100%;
+}
+
+.cuidemos-card img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cuidemos-card h3 {
+  font-size: 32px;
+  margin: 10px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.cuidemos-card p {
+  padding: 8px 12px;
+  margin: 0;
+  font-size: 19px;
+}
