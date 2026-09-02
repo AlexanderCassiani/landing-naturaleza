@@ -1,10 +1,10 @@
-.hero {
+#hero {
   position: relative;
   min-height: 100vh;
   overflow: hidden;
 }
 
-.hero video {
+#hero video {
   position: absolute;
   top: 50%;
   left: 50%;

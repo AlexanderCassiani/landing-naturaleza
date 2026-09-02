@@ -2,7 +2,7 @@ import "./hero.css";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id="hero">
       <video
         width="100%"
         height="100%"
