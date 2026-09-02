@@ -1,11 +1,15 @@
 header {
-  background-color: var(--primary);
+  background-color: #174551e1;
+  backdrop-filter: blur(5px);
   padding: 8px 70px 8px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 40;
 }
 
 header img {
@@ -23,7 +27,7 @@ header ul {
   flex-wrap: wrap;
 }
 
-header button {
+header a {
   background-color: transparent;
   border: none;
   font-size: 22px;
@@ -36,9 +40,10 @@ header button {
   align-items: center;
   position: relative;
   overflow: hidden;
+  text-decoration: none;
 }
 
-header button::before {
+header a::before {
   content: "";
   display: block;
   width: 100%;
@@ -64,6 +69,6 @@ header .abajo:hover::before {
   top: 0;
 }
 
-header button span {
+header a span {
   z-index: 10;
 }

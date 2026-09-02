@@ -10,14 +10,14 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <button className="arriba">
+              <a href="#hero" className="arriba">
                 <span>Inicio</span>
-              </button>
+              </a>
             </li>
             <li>
-              <button className="abajo">
+              <a href="#cuidemos-seccion" className="abajo">
                 <span>Cuidemos</span>
-              </button>
+              </a>
             </li>
           </ul>
         </nav>
