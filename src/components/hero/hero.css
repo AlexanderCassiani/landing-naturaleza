@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 56.25vw;
+  min-width: 177.78vh;
+  min-height: 100vh;
+  border: none;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 45%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  z-index: 10;
+}
+
+.hero-contenedor {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+.hero-titulo {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  font-style: italic;
+  margin: 40px 0 50px 0;
+}
+
+.hero-descripcion {
+  font-size: 30px;
+  text-align: center;
+  font-style: oblique;
+}
