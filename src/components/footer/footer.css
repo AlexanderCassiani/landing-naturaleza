@@ -3,7 +3,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  padding: 40px 100px;
+  padding: 40px 180px;
 }
 
 footer h2 {
