@@ -2,8 +2,14 @@
   background-color: var(--primary-light);
   display: grid;
   grid-template-rows: 140px auto 1fr;
-  max-width: 240px;
+  max-width: 280px;
   width: 100%;
+  transition: all .3s ;
+}
+
+.cuidemos-card:hover {
+  transform: translateY(-10px);
+  scale: 1.1;
 }
 
 .cuidemos-card img {
