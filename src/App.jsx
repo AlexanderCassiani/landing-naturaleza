@@ -1,19 +1,12 @@
 import "./App.css";
+import Hero from "./components/hero/Hero";
+import Header from "./components/header/Header";
 
 function App() {
   return (
     <div className="app">
-      <div className="contenedor-video">
-        <video
-          width="100%"
-          height="100%"
-          src="/video-naturaleza.mp4"
-          autoPlay
-          muted
-          loop
-        ></video>
-        <div className="overlay"></div>
-      </div>
+      <Header />
+      <Hero />
     </div>
   );
 }
