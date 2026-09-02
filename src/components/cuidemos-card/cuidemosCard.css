@@ -1,5 +1,7 @@
 .cuidemos-card {
   background-color: var(--primary-light);
+  display: grid;
+  grid-template-rows: 140px auto 1fr;
   max-width: 240px;
   width: 100%;
 }
