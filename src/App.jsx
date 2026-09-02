@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
 import CuidemosCard from "./components/cuidemos-card/CuidemosCard";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const cardsInfo = [
@@ -32,7 +33,9 @@ function App() {
   return (
     <div className="app">
       <Header />
+
       <Hero />
+
       <section id="cuidemos-seccion">
         <h2 className="cuidemos-seccion-titulo">Aporta tu granito de arena</h2>
         <div className="contenedor-cuidemos">
@@ -46,6 +49,8 @@ function App() {
           ))}
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

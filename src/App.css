@@ -13,7 +13,8 @@
 }
 
 .contenedor-cuidemos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 240px));
   justify-content: center;
   gap: 30px;
 }
