@@ -4,12 +4,12 @@
   grid-template-rows: 140px auto 1fr;
   max-width: 280px;
   width: 100%;
-  transition: all .3s ;
+  transition: all 0.3s;
 }
 
 .cuidemos-card:hover {
   transform: translateY(-10px);
-  scale: 1.1;
+  scale: 1.03;
 }
 
 .cuidemos-card img {
